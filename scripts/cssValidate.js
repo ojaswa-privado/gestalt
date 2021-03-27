@@ -5,7 +5,7 @@ const globby = require('globby');
 
 const uselessFunction = async () => {
   let a = 5;
-  return a;
+  return a*2;
 }
 
 const duplicateVariablesDifferentValues = async () => {
