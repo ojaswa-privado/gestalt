@@ -3,6 +3,11 @@ const fs = require('fs');
 const postcss = require('postcss');
 const globby = require('globby');
 
+const uselessFunction = async () => {
+  let a = 5;
+  return a;
+}
+
 const duplicateVariablesDifferentValues = async () => {
   const files = await globby([
     'packages/gestalt/src/**/*.css',
